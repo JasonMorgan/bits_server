@@ -1,7 +1,11 @@
 ---
 driver:
   name: vagrant
-
+  
+transport:
+  name: winrm
+  winrm_transport: plaintext
+  
 provisioner:
   name: chef_solo
 

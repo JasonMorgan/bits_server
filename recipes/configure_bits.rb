@@ -6,8 +6,8 @@
 
 dsc_resource 'bits' do
   resource :cBitsServer
-  property :path, 'c:\bits'
-  property :webSiteName, 'bits'
-  property :port, 81
-  property :protocol, 'http'
+  property :path, node['bits_server']['website']['path']
+  property :webSiteName, node['bits_server']['website']['name']
+  property :port, node['bits_server']['website']['port']
+  property :protocol, node['bits_server']['website']['protocol']
 end

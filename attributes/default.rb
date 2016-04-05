@@ -1,6 +1,17 @@
-default['bits_server']['modules'] = { 'cBitsServer' => '0.1.1' }
+default['bits_server']['module'] = {
+  'name' => 'cBitsServer',
+  'version' => '0.1.1',
+  'source' => 'PSGallery'
+}
+
 default['bits_server']['website'] = {
-  'Name' => 'Bits',
-  'Path' => 'c:\\bits',
-  'Port' => 80
+  'name' => 'Bits',
+  'path' => 'c:\\bits',
+  'port' => 80,
+  'protocol' => 'http'
+}
+
+default['bits_server']['account'] = {
+  'name' => 'vagrant',
+  'password' => 'vagrant'
 }
