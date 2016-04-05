@@ -1,13 +1,13 @@
 default['bits_server']['module'] = {
-  'name' => 'cBitsServer',
-  'version' => '0.1.1',
+  'name' => 'BitsServer',
+  'version' => '0.1.4',
   'source' => 'PSGallery'
 }
 
 default['bits_server']['website'] = {
   'name' => 'Bits',
-  'path' => 'c:\\bits',
-  'port' => 80,
+  'path' => 'c:\alt\bits',
+  'port' => 81,
   'protocol' => 'http'
 }
 
