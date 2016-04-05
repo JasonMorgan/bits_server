@@ -8,5 +8,5 @@ cred = ps_credential(node['bits_server']['account']['name'], node['bits_server']
 nuget_dsc_module node['bits_server']['module']['name'] do
   version node['bits_server']['module']['version']
   credential cred
-  pkg_source node['bits_server']['module']['source']
+  pkg_provider node['bits_server']['module']['source']
 end
