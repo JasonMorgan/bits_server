@@ -1,6 +1,6 @@
 default['bits_server']['module'] = {
   'name' => 'BitsServer',
-  'version' => '0.1.4',
+  'version' => '0.1.5',
   'source' => 'PSGallery'
 }
 
